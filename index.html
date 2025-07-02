@@ -11,14 +11,15 @@
 			<form>
 				<h1>LOGIN</h1>
 				<div class="content">
-				    <h4>Email</h4>
-				    <input type="email">
-				    <h4>Password</h4>
-				    <input type="password"><br>
+				    <h4 id="emailTag">Email</h4>
+				    <input type="text"id="email">
+				    <h4 id="passwordTag">Password</h4>
+				    <input type="password" id="password"><br>
 				    <p>Forgot Password</p>
-				    <button>SignIn</button>
+				    <button type="button" onClick="isInputsEmpty()">SignIn</button>
 				</div>
 			</form>
 		</main>
+	    <script src="./index.js"></script>
 	</body>
 </html>
