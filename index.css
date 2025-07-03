@@ -43,6 +43,18 @@ h4{
     font-size:1.1rem;
     margin:0.5rem;
 }
+#warningEmail{
+    position:absolute;
+    left:40%;
+    top:10px;
+    display:none;
+}
+#warningPassword{
+    position:absolute;
+    left:39%;
+    top: 100px;
+    display:none;
+}
 input{
     width:25rem;
     height:2rem;
